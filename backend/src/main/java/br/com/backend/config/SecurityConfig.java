@@ -8,6 +8,7 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
+// Configuração de segurança para a aplicação, utilizando Spring Security
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {

@@ -1,12 +1,10 @@
 package br.com.backend.config;
 
 import java.time.LocalDateTime;
-
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-
 import br.com.backend.model.Perfil;
 import br.com.backend.model.User;
 import br.com.backend.repository.UserRepository;
